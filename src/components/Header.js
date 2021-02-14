@@ -2,11 +2,11 @@ import React from "react";
 
 function Header() {
     return (
-        <header>
-            <h3>Parker Morgan</h3>
-            <p>From server to browser,</p>
-            <p>Coding is an art to practice.</p>
-            <p>Here has been my journey:</p>
+        <header className="p-8 m-4">
+            <h2 className="text-8xl py-36">Parker Morgan</h2>
+            <h3 className="text-4xl py-36">From server to browser,</h3>
+            <h3 className="text-4xl py-36">Coding is an art to practice.</h3>
+            <h2 className="text-4xl py-36">Here has been my journey:</h2>
         </header>
     );
 }

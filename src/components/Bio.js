@@ -1,30 +1,35 @@
 import React from "react";
+import RandomSpot from "./randomSpot"
 
 function Bio() {
     return (
-        <section>
-            <h3>About Me:</h3>
-            <p>Hello! I am Parker, I'm full stack developer.</p>
-            <p>I </p>
-            <p>I love finding simple solutions to complex problems.</p>
+        <section className="">
             
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>JQuery</li>
-                <li>React</li>
-                <li>Handlebars</li>
-                <li>Node</li>
-                <li>Bootstrap</li>
-                <li>Mongo</li>
-                <li>Sequelize</li>
-                <li>Express</li>
-                <li>Ajax</li>
-                <li>Axios</li>
+            <p className="m-16 text-2xl">Hello! I am Parker, I'm full stack developer.</p>
+            <p className="m-16 text-2xl">I can create a website, or update an existing one.</p>
+            <p className="m-16 text-2xl">I love finding simple solutions to complex problems.</p>
+            <p className="m-8">Experience in:</p>
+            <ul className="md:mx-12">
+                <li className={RandomSpot()}>HTML</li>
+                <li className={RandomSpot()}>CSS</li>
+                <li className={RandomSpot()}>Javascript</li>
+                <li className={RandomSpot()}>JQuery</li>
+                <li className={RandomSpot()}>React</li>
+                <li className={RandomSpot()}>Handlebars</li>
+                <li className={RandomSpot()}>Node</li>
+                <li className={RandomSpot()}>Bootstrap</li>
+                <li className={RandomSpot()}>Mongo</li>
+                <li className={RandomSpot()}>Sequelize</li>
+                <li className={RandomSpot()}>Express</li>
+                <li className={RandomSpot()}>Ajax</li>
+                <li className={RandomSpot()}>Axios</li>
             </ul>
-            <p>Cooking is my hobby.</p>
-            <p>I also run tabletop roleplaying games</p>
+            <h3 className="m-16 text-2xl">About Me:</h3>
+            <p className="my-16 text-lg">Love to cook</p>
+            <p className="my-16 text-lg">I run tabletop games</p>
+            <p className="my-16 text-lg">Hobbiest musician</p>
+            <p className="my-16 text-lg">Enjoy the tedium of editing videos</p>
+            <p className="my-16 text-md">Casual Videogamer</p>
         </section>
     );
 }
