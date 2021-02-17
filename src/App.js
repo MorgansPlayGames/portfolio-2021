@@ -1,22 +1,15 @@
-import './App.css';
-import Card from "./components/Card";
+import "./App.css";
 import Header from "./components/Header";
-import Bio from "./components/Bio"
-import Footer from "./components/Footer"
-
+import Bio from "./components/Bio";
+import Footer from "./components/Footer";
+import CardList from "./components/CardList";
 
 function App() {
   return (
-     <div className="App bg-gray-900 text-gray-200">
-    
+    <div className="App bg-gray-900 text-gray-200">
       <Header />
-      <body>
-      <section className="container flex-wrap">
-      <Card /><Card /><Card /><Card /><Card /><Card />
-      </section>
+      <CardList />
       <Bio />
-    
-      </body>
       <Footer />
     </div>
   );
