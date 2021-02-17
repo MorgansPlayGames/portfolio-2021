@@ -1,12 +1,12 @@
 import React from "react";
-import GitButton from "./GitButton"
+import GitButton from "./GitButton";
 
 function Footer() {
-    return (
-        <footer>
-            <GitButton />
-        </footer>
-    );
+  return (
+    <footer>
+      <GitButton />
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
