@@ -23,7 +23,7 @@ const projList = [
         "description":"test",
         "gitlink":"test",
         "livesite":"test",
-        "technologies":"test",
+        "technologies":["test"],
         "image":"test"
     }   
 ]
