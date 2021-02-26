@@ -8,25 +8,28 @@ function CardList() {
   
 
   const changeProjectIndex = (projIndex, event) => {
-    event.preventDefault();
+    // event.preventDefault();
     setCurrentProject(<ProjectDisplay project={projList[projIndex.index]} />)
   };
 
   return (
-    <section className="container flex-wrap project-list">
+    <section className="container flex-wrap project-list bg-gray-800 m-auto">
       {projList.map((project, index) => (
-        <div key={index} className="card m-2 p-2">
-          <h5 className="m-1 p-1 text-xl text-left">{project.description}</h5>
-          <img className="p-2 m-2" src="https://via.placeholder.com/150" />
-          <button
-            className={`button text-left project-button project-button-${index}`}
+        <div key={index} className="card m-2 p-2 w-64 max-h-128 flex-wrap">
+          <h5 className="m-1 p-1 text-xl text-left">{project.name}</h5>
+          <img className="p-2 m-2" src={project.image} />
+          <a
+            className={`button text-left bg-gray-700 p-2 m-2 rounded-md project-button project-button-${index}`}
             onClick={(e) => changeProjectIndex({index}, e)}
+            href="#project-display"
           >
             View Project
-          </button>
+          </a>
         </div>
       ))}
-      {currentProject}
+      <div className="col">
+        {currentProject}
+      </div>
     </section>
   );
 }
