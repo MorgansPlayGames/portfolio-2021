@@ -3,7 +3,7 @@ import GitButton from "./GitButton";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="my-4 p-4 bg-gray-600">
       <GitButton />
     </footer>
   );
