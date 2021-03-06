@@ -52,22 +52,24 @@ function Bio() {
           Change the Layout
         </button>
       </section>
-
-      <section className="w-1/2 m-auto">
-        <h3 className="m-16 text-2xl bg-gray-800 rounded-lg">About Me:</h3>
-        <p className="my-16 text-lg bg-gray-800 rounded-lg">Love to cook</p>
-        <p className="my-16 text-lg bg-gray-800 rounded-lg">
-          I run tabletop games
-        </p>
-        <p className="my-16 text-lg bg-gray-800 rounded-lg">
-          Hobbiest musician
-        </p>
-        <p className="my-16 text-lg bg-gray-800 rounded-lg">
-          Enjoy the tedium of editing videos
-        </p>
-        <p className="my-16 text-md bg-gray-800 rounded-lg">
-          Casual Videogamer
-        </p>
+      <section className="md:inline-flex">
+        <img src={process.env.PUBLIC_URL + 'ParkerHeadshot.jpg'} className=' max-w-lg p-8'/>
+        <section className="w-1/2 m-auto">
+          <h3 className="m-16 text-2xl bg-gray-800 rounded-lg">About Me:</h3>
+          <p className="my-16 text-lg bg-gray-800 rounded-lg">Love to cook</p>
+          <p className="my-16 text-lg bg-gray-800 rounded-lg">
+            I run tabletop games
+          </p>
+          <p className="my-16 text-lg bg-gray-800 rounded-lg">
+            Hobbiest musician
+          </p>
+          <p className="my-16 text-lg bg-gray-800 rounded-lg">
+            Enjoy the tedium of editing videos
+          </p>
+          <p className="my-16 text-md bg-gray-800 rounded-lg">
+            Casual Videogamer
+          </p>
+        </section>
       </section>
     </section>
   );
