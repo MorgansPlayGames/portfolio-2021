@@ -11,6 +11,7 @@ function Contact() {
     <p className="text-xl p-4 m-4">How about someone who can run tabletop games as cooperative group problem solving exersize?</p>
     <p>Contact me here:</p>
     <a className="text-green-800" href="mailto:jpmaster13@gmail.com">Jpmaster13@gmail.com</a>
+    <img src={process.env.PUBLIC_URL + 'ParkerHeadshot2.jpg'} className=' max-w-lg m-auto p-4'/>
   </main>
   )
 }
