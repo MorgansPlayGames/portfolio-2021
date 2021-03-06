@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# parker-morgan-portfolio-2021
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+[Link to repository](https://github.com/MorgansPlayGames/portfolio-2021)
 
-### `npm start`
+[Live Website](https://parker-morgan-portfolio-2021.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Portfolio Picture]()
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. [ Description. ](#description)
+2. [ Technology Used.](#technology-used)
+2. [ Installation ](#installation-instructions)
+3. [ Usage Information ](#usage-information)
+4. [ Contribution Guidelines ](#contribution-guidelines)
+5. [ Licence ](#licence)
+6. [ Questions ](#questions?)
 
-### `npm test`
+## Description:
+    React app used to show off my other projects and give others the ability to contact me if they need work!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Used
+    CSS
+    Tailwind
+    Animate.css
+    JS
+    React
+ 
+### Usage Information
+    There are animations on the home page load and a button that will randomize the layout of the list above it!
 
-### `npm run build`
+### Contribution Guidelines
+    Fork, update, and
+    Submit your code to me!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Licence 
+    Copyright (c) 2020, Parker Morgan
+    All rights reserved.
+        
+    This source code is licensed under the MIT-style license found in the
+    LICENSE file in the root directory of this source tree.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Questions?
+    GitHub: MorgansPlayGames
+    Email: jpmaster13@msn.com
