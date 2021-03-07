@@ -27,7 +27,7 @@ function CardList() {
           </a>
         </div>
       ))}
-      <div className="col">
+      <div className="col mb-8">
         {currentProject}
       </div>
     </section>

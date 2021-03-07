@@ -17,7 +17,7 @@ function ProjectDisplay(props) {
   }
 
   return (
-    <section id="project-display" className="m-4 p-2 bg-gray-700 rounded-xl">
+    <section id="project-display" className="m-4 p-2 mb-16 pb-16 bg-gray-700 rounded-xl">
       <h3 className="title text-4xl p-2 m-2">{props.project.name}</h3>
       <p className="description text-xl p-2 m-2">
         Description: {props.project.description}
