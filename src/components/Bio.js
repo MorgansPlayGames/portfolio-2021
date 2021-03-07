@@ -20,12 +20,12 @@ function Bio() {
     "Axios",
   ];
   const [experienceLayout, setExperienceLayout] = useState(
-    experienceIn.map((x) => <li className={RandomSpot()}>{x}</li>)
+    experienceIn.map((x, i) => <li key={i} className={RandomSpot()}>{x}</li>)
   );
 
   const changeLayout = () => {
     setExperienceLayout(
-      experienceIn.map((x) => <li className={RandomSpot()}>{x}</li>)
+      experienceIn.map((x, i) => <li key={i} className={RandomSpot()}>{x}</li>)
     );
   };
 
